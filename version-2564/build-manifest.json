@@ -1,0 +1,18 @@
+{
+  "site_name": "欧美高分电影",
+  "movie_count": 2000,
+  "category_counts": {
+    "high-score": 200,
+    "europe-us": 200,
+    "action-adventure": 200,
+    "sci-fi-fantasy": 200,
+    "mystery-crime": 200,
+    "comedy-healing": 200,
+    "romance-arthouse": 200,
+    "animation-family": 200,
+    "drama-classic": 200,
+    "thriller-disaster": 200
+  },
+  "video_source_count_from_uploaded_js": 20,
+  "html_pages": 2035
+}

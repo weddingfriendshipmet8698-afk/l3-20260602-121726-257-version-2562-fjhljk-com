@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-经典亚洲电影</title>
+  <meta name="description" content="经典亚洲电影搜索页，支持按片名、地区、类型、标签、年份筛选影片。" />
+  <meta name="keywords" content="影片搜索,经典亚洲电影,亚洲经典电影,经典影片,精选电影,在线观看,电影合集,高分电影" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <script src="./assets/search-data.js" defer></script>
+  <script src="./assets/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="./index.html" aria-label="经典亚洲电影">
+        <span class="brand-mark">影</span>
+        <span class="brand-text">经典亚洲电影</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+          <a class="nav-link " href="./index.html">首页</a>
+          <a class="nav-link " href="./categories.html">分类</a>
+          <a class="nav-link " href="./ranking.html">热播榜</a>
+          <a class="nav-link is-active" href="./search.html">搜索</a>
+      </nav>
+      <form class="nav-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片" />
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" aria-label="展开导航" data-mobile-menu-button>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <a class="mobile-link " href="./index.html">首页</a>
+        <a class="mobile-link " href="./categories.html">分类</a>
+        <a class="mobile-link " href="./ranking.html">热播榜</a>
+        <a class="mobile-link is-active" href="./search.html">搜索</a>
+      <form class="mobile-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片" />
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="page-hero search-hero">
+      <p class="eyebrow">Search</p>
+      <h1>影片搜索与筛选</h1>
+      <p>输入片名、地区、类型、标签或年份，即可从完整片库中筛选对应影片。</p>
+    </section>
+    <section class="search-workbench" data-search-page>
+      <div class="search-controls">
+        <input type="search" data-search-input placeholder="搜索片名、地区、类型、标签" />
+        <select data-search-category>
+          <option value="">全部分类</option>
+          <option value="亚洲经典">亚洲经典</option><option value="悬疑犯罪">悬疑犯罪</option><option value="科幻奇幻">科幻奇幻</option><option value="动作战争">动作战争</option><option value="爱情生活">爱情生活</option><option value="喜剧治愈">喜剧治愈</option><option value="动画动漫">动画动漫</option><option value="历史古装">历史古装</option><option value="恐怖惊悚">恐怖惊悚</option><option value="家庭剧情">家庭剧情</option>
+        </select>
+        <select data-search-year>
+          <option value="">全部年份</option>
+          <option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1970">1970</option><option value="1967">1967</option><option value="1966">1966</option><option value="1963">1963</option><option value="1961">1961</option><option value="1958">1958</option><option value="1955">1955</option><option value="1954">1954</option><option value="1952">1952</option><option value="1950">1950</option><option value="1949">1949</option><option value="1944">1944</option><option value="1941">1941</option><option value="1939">1939</option><option value="1937">1937</option><option value="1934">1934</option><option value="1933">1933</option><option value="1931">1931</option>
+        </select>
+        <select data-search-type>
+          <option value="">全部类型</option>
+          <option value="电影">电影</option>
+          <option value="电视剧">电视剧</option>
+          <option value="剧集">剧集</option>
+          <option value="动画剧集">动画剧集</option>
+        </select>
+      </div>
+      <p class="search-count" data-search-count>正在载入影片数据</p>
+      <div class="movie-grid" data-search-results></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <a class="brand footer-brand" href="./index.html">
+          <span class="brand-mark">影</span>
+          <span class="brand-text">经典亚洲电影</span>
+        </a>
+        <p>经典亚洲电影页面整理亚洲地区口碑影片，涵盖经典题材、年代片和高分电影内容。</p>
+      </div>
+      <div>
+        <h2>快捷入口</h2>
+        <a href="./categories.html">分类总览</a>
+        <a href="./ranking.html">热播榜单</a>
+        <a href="./search.html">搜索筛选</a>
+      </div>
+      <div>
+        <h2>内容导航</h2>
+        <a href="./category-01.html">亚洲经典</a>
+        <a href="./category-05.html">爱情生活</a>
+        <a href="./category-09.html">恐怖惊悚</a>
+      </div>
+    </div>
+  </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
