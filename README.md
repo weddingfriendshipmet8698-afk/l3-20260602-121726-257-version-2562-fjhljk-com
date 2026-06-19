@@ -1,16 +1,13 @@
-﻿# website-upload-20260602-121726-257
+# 热门欧美电影-热门好看的电影大全-高清影片在线观看
 
-Batch 257 of 14. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站文件包。
 
-| Directory | Source zip |
-| --- | --- |
-| version-2561 | project-bolt-sb1-sldnu2dt-chatgpt (1).zip |
-| version-2562 | project-bolt-sb1-sojpi1nx - 副本-chatgpt (1).zip |
-| version-2563 | project-bolt-sb1-sojpi1nx-chatgpt (1).zip |
-| version-2564 | project-bolt-sb1-spueviyd - 副本-chatgpt (1).zip |
-| version-2565 | project-bolt-sb1-spueviyd-chatgpt (1).zip |
-| version-2566 | project-bolt-sb1-sq9w3mqo - 副本-chatgpt (1).zip |
-| version-2567 | project-bolt-sb1-sq9w3mqo-chatgpt (1).zip |
-| version-2568 | project-bolt-sb1-sqwpmvev - 副本-chatgpt (1).zip |
-| version-2569 | project-bolt-sb1-sqwpmvev-chatgpt (1).zip |
-| version-2570 | project-bolt-sb1-sshvapff - 副本-chatgpt (1).zip |
+- 首页：index.html
+- 分类总览：categories.html
+- 热播榜：ranking.html
+- 搜索页：search.html
+- 完整片库：archive/page-001.html
+- 详情页目录：movies/
+- 样式与脚本：assets/
+
+页面中的影片内容已直接写入 HTML，详情页播放器绑定了 m3u8 播放源。封面路径使用网站顶级目录的 1.jpg 到 150.jpg；部署时把图片放到网站根目录即可对应显示。
